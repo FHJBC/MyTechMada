@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 768px) {
+  .containeurf {
+    text-align: center;
+    height: auto;
+  }
+
+  .containeurf h1 {
+    display: block;
+  }
+
+  .containeurf #pf {
+    line-height: 15px;
+  }
+
+  div#lg12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo img {
+    width: 50%;
+    object-fit: cover;
+    height: 100%;
+  }
+}

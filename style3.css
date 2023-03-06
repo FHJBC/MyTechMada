@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.containeurf{
+    background-color: #040930;
+    width: 100vw;
+    height: 635px;
+}
+
+.containeurf {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containeurf #rowf #lg12{
+    padding-left: 8vw;
+}
+
+.containeurf h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.5vw;
+    line-height: 68px;
+    /* or 113% */
+
+    display: flex;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.containeurf #pf{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+.containeurf #p{
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    padding: 1vh 0;
+    width: 18vw;
+    border-radius: 25px;
+    margin-top: 32px;
+}
+.containeurf #p a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 850px){
+    
+    /* .containeurf{
+        background-color: #000000;
+        background-image: url(assets/images/AcceuilIMG/Splines.png);
+        background-size: 45%;
+        background-position: top right;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: auto;
+    } */
+    .containeurf #rowf{
+        padding-top: 1vh;
+    }
+    .containeurf #rowf #lg12{
+        padding-left: 8vw;
+    }
+    .containeurf h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 4.5vw;
+        line-height: 68px;
+        /* or 113% */
+    
+        display: flex;
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
+    }
+    .containeurf #pf{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2vw;
+        line-height: 27px;
+    
+        color: #FFFFFF;
+    }
+    .containeurf #p{
+        text-align: center;
+        border: 1px solid #FFFFFF;
+        padding: 1vh 0;
+        width: 18vw;
+        border-radius: 25px;
+    }
+    .containeurf #p a{
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2vw;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}
+@media only screen and (max-width: 600px) {
+    /* .containeurf{
+        background-color: #000000;
+        background-image: url(assets/images/AcceuilIMG/Splines.png);
+        background-size: 50%;
+        background-position: top right;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: auto;
+    } */
+    .containeurf #rowf{
+        padding-top: 0;
+    }
+    .containeurf #rowf #lg12{
+        padding-left: 8vw;
+    }
+    .containeurf h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 40px;
+        /* or 113% */
+    
+        /* display: flex; */
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
+    }
+    .containeurf #pf{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 5px;
+    
+        color: #FFFFFF;
+    }
+    .containeurf #p{
+        text-align: center;
+        border: 1px solid #FFFFFF;
+        padding: 5px 0;
+        width: 30vw;
+        border-radius: 25px;
+    }
+    .containeurf #p a{
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*Scrollbar CSS*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 6px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #2148C0;
+    background-image: url(images/BG.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.img{
+    text-align: center;
+}
+.form_connexion_inscription {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    background: transparent;
+}
+.form_connexion_inscription .message_error {
+    color: red;
+    font-size: 14px;
+}
+.form_connexion_inscription div.user{
+    width: 100%;
+
+}
+.form_connexion_inscription div.user i{
+    color: #ccc;
+    position: absolute;
+    margin-top: 8px;
+}
+.form_connexion_inscription div.mdp{
+    width: 100%;
+
+}
+.form_connexion_inscription div.mdp i{
+    color: #ccc;
+    position: absolute;
+    margin-top: 8px;
+}
+.form_connexion_inscription input {
+    padding: 5px;
+    outline: 0;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    outline: none;
+    margin-bottom: 20px;
+    color: #ffff;
+    width: 100%;
+    padding-left: 30px;
+    position: relative;
+}
+.form_connexion_inscription input:focus{
+    background: transparent;
+}
+.form_connexion_inscription input[type='submit']{
+    margin-top: 20px;
+    background-color: #ffff;
+    color: #1877f2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+.form_connexion_inscription .link {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.link a {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: 0;
+}
+.link a:hover {
+    text-decoration: underline;
+}
+
+/*Chat CSS*/
